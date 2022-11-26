@@ -15,10 +15,11 @@ def menu():
     @bot.event
     async def on_ready():
         system("cls")
-        print(f"{col.CYAN}Oauth link will open shortly.")
+        print(f"{col.CYAN}Opening Oauth2 Links and Active Developer Page")
         webbrowser.open(f"https://discord.com/api/oauth2/authorize?client_id={bot.user.id}&permissions=156766824512&scope=bot%20applications.commands")
         print(f"{col.RED}Logged in as {bot.user.name} : {bot.user.id}")
-
+        webbrowser.open(f"https://discord.com/developers/active-developer")
+           
     @bot.slash_command(description="Pong")
     async def ping(ctx):
         await ctx.respond("Pong")
