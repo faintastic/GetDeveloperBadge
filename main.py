@@ -1,9 +1,7 @@
 import discord
 import os
-import asyncio
 import webbrowser  
 from colorama import Fore as col
-import random
 from discord.ext import commands
 
 system = os.system
