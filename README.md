@@ -23,3 +23,6 @@ Open start.bat
 
 ## Contact
 If you are having issues please add me on discord api#0001
+
+## HOW TO FUCKING USE IT BECAUSE TO MANY DAMN PEOPLE KEEP ADDING ME
+You have to have an alt acc run the command and wait up to 24-48 hrs
